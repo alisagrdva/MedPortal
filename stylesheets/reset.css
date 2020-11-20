@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Gerbera';
+  width: 100%;
+  height: 100%;
+  background: #EAE9E0;
+  /* background-image: url(../images/Background.svg); */
+  /* background-size: cover; */
+  /* position: fixed; */
+  color: #272C3C;
+  min-width: 1440px;
+}
+
+body img {
+  height: 100%;
+}

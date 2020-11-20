@@ -1,0 +1,190 @@
+.footerLine {
+  width: 100%;
+  background: #272C3B;
+  height: 455px;
+}
+
+.footer {
+  height: 300px;
+  margin: auto;
+  width: 878px;
+  margin-top: 71px;
+  /* opacity: 0.3; */
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  background: #272C3B;
+}
+
+.footerLinks {
+  display: flex;
+  margin-top: 47px;
+
+}
+
+.footerLinksColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerLinksColumn div {
+  font-size: 14px;
+}
+
+.footerLinksColumn a {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 14px;
+}
+
+#footerLinksService {
+  margin-right: 82px;
+}
+
+#footerLinksMedPortal {
+  margin-right: 104px;
+}
+
+#footerLinksInfo {
+  margin-right: 30px;
+
+}
+
+#footerLinksInfoSocial {
+  margin-top: 26px;
+  letter-spacing: 0.4px;
+}
+
+#footerLinksContacts {
+  color: #007CFF;
+}
+
+#footerLinksAddress {
+  line-height: 19px;
+
+}
+
+.footerLinksInfoSocialIcon {
+  display: flex;
+  margin-top: 16px;
+
+}
+
+.footerLinksInfoSocialIcon img {
+  height: 20px;
+
+}
+
+.footerLinksInfoSocialIconCircle {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background-color: #272C3B;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerLinksInfoSocialIconCircle:hover {
+  background-color: #0062FF;
+}
+
+#footerLinksInfoSocialIconCircleFb {
+
+}
+
+#footerLinksInfoSocialIconCircleVk {
+  width: 17px;
+}
+
+#footerLinksInfoSocialIconCircleOdn {
+  width: 10px;
+}
+
+#footerLinksInfoSocialIconCircleInst {
+  width: 17px;
+}
+
+#footerLinksInfoSocialIconCircleUT {
+  width: 19px;
+}
+
+#footerLinksInfoSocialIconCircleTg {
+  width: 18px;
+  margin-right: 5px;
+}
+
+#footerLinksInfoSocialIconCircleY {
+
+}
+
+.footerAttention {
+  display: flex;
+  margin-top: 39px;
+  margin-left: -1px;
+}
+
+.footerAttentionIcon {
+  width: 95px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: #E2E2EA;
+  border-width: 1px;
+}
+
+.footerAttentionIcon img{
+  width: 53px;
+  margin-right: 2px;
+}
+
+.footerAttentionInfo {
+  display: flex;
+  font-size: 12px;
+  font-weight: 300;
+  width: 782px;
+  border-style: solid;
+  border-color: #E2E2EA;
+  border-width: 1px;
+  margin-left: -1px;
+}
+
+.footerAttentionInfoOne {
+  margin-left: 72px;
+  margin-top: 21px;
+  line-height: 17px;
+}
+
+.footerAttentionInfoTwo {
+  margin-left: 48px;
+  margin-top: 21px;
+  line-height: 17px;
+
+}
+
+.footerAttentionInfoThree {
+  margin-left: 68px;
+  margin-top: 21px;
+  line-height: 17px;
+
+}
+
+.footerNotice {
+  display: flex;
+  margin-bottom: 48px;
+  margin-top: 24px;
+  color: #979797;
+}
+
+.footerNoticeYear {
+  font-size: 12px;
+  font-weight: 300;
+  margin-right: 169px;
+}
+
+.footerNoticeRights {
+  font-size: 12px;
+  font-weight: 300;
+}

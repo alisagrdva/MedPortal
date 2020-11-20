@@ -1,0 +1,557 @@
+.Market {
+  width: 878px;
+  height: 745px;
+  background-color: #EFF7F4;
+  /* opacity: 0.4; */
+  margin: auto;
+  margin-top: 28px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.MedMarket {
+  display: flex;
+  justify-content: space-between;
+  width: 818px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.MedMarket img {
+  width: 22px;
+  margin-top: 8px;
+}
+
+.MedMarketTopicСircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #B3D8E0;
+  margin-left: 8px;
+  position: absolute;
+}
+
+.MedMarketTopicPlus {
+  position: absolute;
+  position: absolute;
+  margin-left: 28px;
+  margin-top: 8px;
+}
+
+.MedMarketTopicPlusLine {
+  width: 18px;
+  height: 7px;
+  background-color: #FFFFFF;
+}
+
+#LineTwo {
+  transform: rotate(-90deg);
+  margin-top: -7px;
+}
+
+.MedMarketTopicName {
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  margin-top: 6px;
+  letter-spacing: -0.7px;
+}
+
+
+
+
+
+
+
+.MarketSearch {
+  display: flex;
+  width: 818px;
+  margin: auto;
+  margin-top: 19px;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.MarketSearchString {
+  display: flex;
+}
+
+.MarketSearchStringBottomSearch {
+  background-color: #FFFFFF;
+  width: 453px;
+  height: 34px;
+  border-radius: 5px 0px 0px 5px;
+  padding-left: 11px;
+  padding-right: 8px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#MarketSearchStringBottomSearch {
+  outline: none;
+  border: none;
+  font-size: 10px;
+  width: 430px;
+  letter-spacing: 0.6px;
+  background-color: #FFFFFF;
+  color: #92929D;
+}
+
+.MarketSearchStringBottomSearch img{
+  width: 16px;
+}
+
+.MarketSearchStringBottomSelectDesign {
+  width: 196px;
+  height: 34px;
+  border-radius: 0px 5px 5px 0px;
+  padding-left: 6px;
+  outline: none;
+  border: none;
+  font-size: 10px;
+  letter-spacing: 0.6px;
+  border-left-color: #E2E2EA;;
+  border-left-style: solid;
+  border-left-width: 1px;
+  color: #92929D;
+}
+
+.MarketSearchBottom {
+  width: 131px;
+  height: 34px;
+  border-radius: 4px;
+  background-color: #B3D8E0;
+  font-size: 12px;
+  padding-right: 4px;
+
+
+}
+
+
+
+
+
+.MarketAction {
+  display: flex;
+  width: 818px;
+  margin: auto;
+  margin-top: 17px;
+  justify-content: space-between;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.MarketAction img {
+  height: 15px;
+}
+
+.MarketActionScroll {
+  display: flex;
+}
+
+.MarketActionScrollCard {
+  width: 120px;
+  background-color: #FFFFFF;
+  height: 146px;
+  border-radius: 5px;
+  margin-right: 11.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.MarketActionScrollCard:hover {
+  width: 120px;
+  background-color: #FFFFFF;
+  height: 141px;
+  border-radius: 5px;
+  margin-right: 11.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  border-bottom-style: solid;
+  border-bottom-color: #B3D8E0;
+  border-bottom-width: 5px;
+}
+
+#MarketActionScrollCard {
+  height: 54px;
+  margin-top: 22px;
+}
+
+.MarketActionScrollCardTopic {
+  font-size: 12px;
+  width: 110px;
+  text-align: center;
+  margin-top: 17px;
+}
+
+
+
+
+
+
+
+
+.MarketActionToggle {
+  display: flex;
+  width: 777px;
+  margin: auto;
+  margin-top: 15px;
+  justify-content: space-between;
+  margin-bottom: 0;
+  align-items: center;
+  margin-right: 72px;
+}
+
+.MarketActionToggleRecord {
+  width: 253px;
+  background-color: #FAFCFF;
+  height: 46px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+}
+
+.MarketActionToggleRecordName {
+  margin-left: 62px;
+  font-size: 13px;
+  margin-top: 4px;
+  letter-spacing: 0.2px;
+
+}
+
+
+.MarketActionTogglePeople {
+  width: 381px;
+  background-color: #FAFCFF;
+  height: 46px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+.toggle{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-left: 17px;
+  margin-top: -10px;
+}
+
+.toggle input[type="checkbox"]{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -2;
+  border: none;
+  outline: none;
+}
+
+.toggle label{
+  width: 52px;
+  height: 11px;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #E2E2EA;
+  transition: background .2s ease-in-out;
+}
+
+.toggle label:after{
+  content: '';
+  width: 25px;
+  height: 25px;
+  background: #E2E2EA;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  transition: all .2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  margin-top: -7px;
+}
+
+.toggle input[type="checkbox"]:checked + label:after{
+  left : 27px;
+}
+
+.toggle input[type="checkbox"]:checked + label{
+  background: #B3D8E0;
+}
+
+.toggle input[type="checkbox"]:checked + label:after{
+  background: #B3D8E0;
+}
+
+
+
+
+
+
+
+.toggleTwo{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-left: 30px;
+  margin-top: -10px;
+}
+
+.toggleTwo input[type="checkbox"]{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -2;
+  border: none;
+  outline: none;
+}
+
+.toggleTwo label{
+  width: 52px;
+  height: 11px;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #E2E2EA;
+  transition: background .2s ease-in-out;
+}
+
+.toggleTwo label:after{
+  content: '';
+  width: 25px;
+  height: 25px;
+  background: #E2E2EA;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  transition: all .2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  margin-top: -7px;
+}
+
+.toggleTwo input[type="checkbox"]:checked + label:after{
+  left : 27px;
+}
+
+.toggleTwo input[type="checkbox"]:checked + label{
+  background: #B3D8E0;
+}
+
+.toggleTwo input[type="checkbox"]:checked + label:after{
+  background: #B3D8E0;
+}
+
+
+
+
+
+
+
+.toggleThree {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-left: 36px;
+  margin-top: -10px;
+}
+
+.toggleThree input[type="checkbox"]{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -2;
+  border: none;
+  outline: none;
+}
+
+.toggleThree label{
+  width: 52px;
+  height: 11px;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #E2E2EA;
+  transition: background .2s ease-in-out;
+}
+
+.toggleThree label:after{
+  content: '';
+  width: 25px;
+  height: 25px;
+  background: #E2E2EA;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  transition: all .2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  margin-top: -7px;
+}
+
+.toggleThree input[type="checkbox"]:checked + label:after{
+  left : 27px;
+}
+
+.toggleThree input[type="checkbox"]:checked + label{
+  background: #B3D8E0;
+}
+
+.toggleThree input[type="checkbox"]:checked + label:after{
+  background: #B3D8E0;
+}
+
+
+
+
+.MarketActionTogglePeopleLine {
+  width: 1px;
+  height: 29px;
+  background-color: blue;
+  margin-left: 35px;
+  background: #E2E2EA;
+}
+
+
+
+
+
+
+
+.MarketDoc {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.MarketDoctors {
+  display: flex;
+  width: 776px;
+  margin: auto;
+  margin-top: 16px;
+  justify-content: space-between;
+  margin-bottom: 0;
+  align-items: center;
+  margin-right: 73px;
+  flex-wrap: wrap;
+}
+
+
+.MarketDoctorsCard {
+  width: 382px;
+  height: 157px;
+  margin-bottom: 14px;
+  border-radius: 7px;
+  display: flex;
+  background: #FFFFFF;
+}
+
+.MarketDoctorsCard img {
+  height: 70px;
+  margin-left: 14px;
+  margin-top: 24px;
+}
+
+.MarketDoctorsCardInfo {
+  margin-top: 24px;
+  margin-left: 11px;
+}
+
+.MarketDoctorsCardInfoName {
+  font-size: 15px;
+  letter-spacing: 0.2px;
+
+}
+
+.MarketDoctorsCardInfoSkill {
+  display: flex;
+  margin-top: 7px;
+}
+
+#MarketDoctorsCardInfoSkill {
+  margin-top: 6px;
+  margin-left: 2px;
+}
+
+#MarketDoctorsCardInfoSkillImg {
+  height: 15px;
+  margin-top: 0px;
+  margin-left: 0px;
+
+}
+
+.MarketDoctorsCardInfoText {
+  font-size: 12px;
+  margin-left: 6px;
+  margin-top: 2px;
+  color: #92929D;
+}
+
+
+.MarketDoctorsCardInfoButton {
+  height: 28px;
+  width: 244px;
+  margin-left: 1px;
+  margin-top: 14px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: #E2E2EA;
+  border-width: 1px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 8px;
+  align-items: center;
+  padding-left: 11px;
+  font-size: 12px;
+  font-family: 'Gerbera';
+  letter-spacing: 0.1px;
+  color: #007CFF;
+  background: #FFFFFF;
+  padding-top: 1px;
+
+}
+
+.MarketDoctorsCardInfoButton img {
+  height: 11px;
+  margin-top: 0px;
+
+}
+
+
+.MarketShowButton {
+  height: 34px;
+  width: 130px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-family: 'Gerbera';
+  letter-spacing: 0.1px;
+  background: #B3D8E0;
+  margin-top: 7px;
+  margin-right: 41px;
+  padding-top: 3px;
+  padding-right: 3px;
+  color: #272C3C;
+
+}
