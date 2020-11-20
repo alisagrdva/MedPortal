@@ -10,7 +10,7 @@
   flex-direction: column;
 }
 
-.MedMarket {
+.Med_Market {
   display: flex;
   justify-content: space-between;
   width: 818px;
@@ -19,12 +19,12 @@
   margin-bottom: 0;
 }
 
-.MedMarket img {
+.Med_Market img {
   width: 22px;
   margin-top: 8px;
 }
 
-.MedMarketTopicСircle {
+.Med_Market_Topic_Сircle {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -33,25 +33,25 @@
   position: absolute;
 }
 
-.MedMarketTopicPlus {
+.Med_Market_Topic_Plus {
   position: absolute;
   position: absolute;
   margin-left: 28px;
   margin-top: 8px;
 }
 
-.MedMarketTopicPlusLine {
+.Med_Market_Topic_Plus_Line {
   width: 18px;
   height: 7px;
   background-color: #FFFFFF;
 }
 
-#LineTwo {
+#Line_Two {
   transform: rotate(-90deg);
   margin-top: -7px;
 }
 
-.MedMarketTopicName {
+.Med_Market_Topic_Name {
   font-size: 25px;
   font-weight: 700;
   position: absolute;
@@ -65,7 +65,7 @@
 
 
 
-.MarketSearch {
+.Market_Search {
   display: flex;
   width: 818px;
   margin: auto;
@@ -74,11 +74,11 @@
   margin-bottom: 0;
 }
 
-.MarketSearchString {
+.Market_Search_String {
   display: flex;
 }
 
-.MarketSearchStringBottomSearch {
+.Market_Search_String_Bottom_Search {
   background-color: #FFFFFF;
   width: 453px;
   height: 34px;
@@ -90,7 +90,7 @@
 
 }
 
-#MarketSearchStringBottomSearch {
+#Market_Search_String_Bottom_Search {
   outline: none;
   border: none;
   font-size: 10px;
@@ -100,11 +100,11 @@
   color: #92929D;
 }
 
-.MarketSearchStringBottomSearch img{
+.Market_Search_String_Bottom_Search img{
   width: 16px;
 }
 
-.MarketSearchStringBottomSelectDesign {
+.Market_Search_String_Bottom_Select_Design {
   width: 196px;
   height: 34px;
   border-radius: 0px 5px 5px 0px;
@@ -119,7 +119,7 @@
   color: #92929D;
 }
 
-.MarketSearchBottom {
+.Market_Search_Bottom {
   width: 131px;
   height: 34px;
   border-radius: 4px;
@@ -134,7 +134,7 @@
 
 
 
-.MarketAction {
+.Market_Action {
   display: flex;
   width: 818px;
   margin: auto;
@@ -144,15 +144,15 @@
   align-items: center;
 }
 
-.MarketAction img {
+.Market_Action img {
   height: 15px;
 }
 
-.MarketActionScroll {
+.Market_Action_Scroll {
   display: flex;
 }
 
-.MarketActionScrollCard {
+.Market_Action_Scroll_Card {
   width: 120px;
   background-color: #FFFFFF;
   height: 146px;
@@ -164,7 +164,7 @@
   /* justify-content: center; */
 }
 
-.MarketActionScrollCard:hover {
+.Market_Action_Scroll_Card:hover {
   width: 120px;
   background-color: #FFFFFF;
   height: 141px;
@@ -179,12 +179,12 @@
   border-bottom-width: 5px;
 }
 
-#MarketActionScrollCard {
+#Market_Action_Scroll_Card {
   height: 54px;
   margin-top: 22px;
 }
 
-.MarketActionScrollCardTopic {
+.Market_Action_Scroll_Card_Topic {
   font-size: 12px;
   width: 110px;
   text-align: center;
@@ -198,7 +198,7 @@
 
 
 
-.MarketActionToggle {
+.Market_Action_Toggle {
   display: flex;
   width: 777px;
   margin: auto;
@@ -209,7 +209,7 @@
   margin-right: 72px;
 }
 
-.MarketActionToggleRecord {
+.Market_Action_Toggle_Record {
   width: 253px;
   background-color: #FAFCFF;
   height: 46px;
@@ -219,7 +219,7 @@
 
 }
 
-.MarketActionToggleRecordName {
+.Market_Action_Toggle_Record_Name {
   margin-left: 62px;
   font-size: 13px;
   margin-top: 4px;
@@ -228,7 +228,7 @@
 }
 
 
-.MarketActionTogglePeople {
+.Market_Action_Toggle_People {
   width: 381px;
   background-color: #FAFCFF;
   height: 46px;
@@ -306,7 +306,7 @@
 
 
 
-.toggleTwo{
+.toggle_Two{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -314,7 +314,7 @@
   margin-top: -10px;
 }
 
-.toggleTwo input[type="checkbox"]{
+.toggle_Two input[type="checkbox"]{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -324,7 +324,7 @@
   outline: none;
 }
 
-.toggleTwo label{
+.toggle_Two label{
   width: 52px;
   height: 11px;
   border-radius: 50px;
@@ -335,7 +335,7 @@
   transition: background .2s ease-in-out;
 }
 
-.toggleTwo label:after{
+.toggle_Two label:after{
   content: '';
   width: 25px;
   height: 25px;
@@ -348,15 +348,15 @@
   margin-top: -7px;
 }
 
-.toggleTwo input[type="checkbox"]:checked + label:after{
+.toggle_Two input[type="checkbox"]:checked + label:after{
   left : 27px;
 }
 
-.toggleTwo input[type="checkbox"]:checked + label{
+.toggle_Two input[type="checkbox"]:checked + label{
   background: #B3D8E0;
 }
 
-.toggleTwo input[type="checkbox"]:checked + label:after{
+.toggle_Two input[type="checkbox"]:checked + label:after{
   background: #B3D8E0;
 }
 
@@ -366,7 +366,7 @@
 
 
 
-.toggleThree {
+.toggle_Three {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -374,7 +374,7 @@
   margin-top: -10px;
 }
 
-.toggleThree input[type="checkbox"]{
+.toggle_Three input[type="checkbox"]{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -384,7 +384,7 @@
   outline: none;
 }
 
-.toggleThree label{
+.toggle_Three label{
   width: 52px;
   height: 11px;
   border-radius: 50px;
@@ -395,7 +395,7 @@
   transition: background .2s ease-in-out;
 }
 
-.toggleThree label:after{
+.toggle_Three label:after{
   content: '';
   width: 25px;
   height: 25px;
@@ -408,22 +408,22 @@
   margin-top: -7px;
 }
 
-.toggleThree input[type="checkbox"]:checked + label:after{
+.toggle_Three input[type="checkbox"]:checked + label:after{
   left : 27px;
 }
 
-.toggleThree input[type="checkbox"]:checked + label{
+.toggle_Three input[type="checkbox"]:checked + label{
   background: #B3D8E0;
 }
 
-.toggleThree input[type="checkbox"]:checked + label:after{
+.toggle_Three input[type="checkbox"]:checked + label:after{
   background: #B3D8E0;
 }
 
 
 
 
-.MarketActionTogglePeopleLine {
+.Market_Action_Toggle_People_Line {
   width: 1px;
   height: 29px;
   background-color: blue;
@@ -437,13 +437,13 @@
 
 
 
-.MarketDoc {
+.Market_Doc {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.MarketDoctors {
+.Market_Doctors {
   display: flex;
   width: 776px;
   margin: auto;
@@ -456,7 +456,7 @@
 }
 
 
-.MarketDoctorsCard {
+.Market_Doctors_Card {
   width: 382px;
   height: 157px;
   margin-bottom: 14px;
@@ -465,41 +465,41 @@
   background: #FFFFFF;
 }
 
-.MarketDoctorsCard img {
+.Market_Doctors_Card img {
   height: 70px;
   margin-left: 14px;
   margin-top: 24px;
 }
 
-.MarketDoctorsCardInfo {
+.Market_Doctors_Card_Info {
   margin-top: 24px;
   margin-left: 11px;
 }
 
-.MarketDoctorsCardInfoName {
+.Market_Doctors_Card_Info_Name {
   font-size: 15px;
   letter-spacing: 0.2px;
 
 }
 
-.MarketDoctorsCardInfoSkill {
+.Market_Doctors_Card_Info_Skill {
   display: flex;
   margin-top: 7px;
 }
 
-#MarketDoctorsCardInfoSkill {
+#Market_Doctors_Card_Info_Skill {
   margin-top: 6px;
   margin-left: 2px;
 }
 
-#MarketDoctorsCardInfoSkillImg {
+#Market_Doctors_Card_Info_Skill_Img {
   height: 15px;
   margin-top: 0px;
   margin-left: 0px;
 
 }
 
-.MarketDoctorsCardInfoText {
+.Market_Doctors_Card_Info_Text {
   font-size: 12px;
   margin-left: 6px;
   margin-top: 2px;
@@ -507,7 +507,7 @@
 }
 
 
-.MarketDoctorsCardInfoButton {
+.Market_Doctors_Card_Info_Button {
   height: 28px;
   width: 244px;
   margin-left: 1px;
@@ -530,14 +530,14 @@
 
 }
 
-.MarketDoctorsCardInfoButton img {
+.Market_Doctors_Card_Info_Button img {
   height: 11px;
   margin-top: 0px;
 
 }
 
 
-.MarketShowButton {
+.Market_Show_Button {
   height: 34px;
   width: 130px;
   border-radius: 4px;

@@ -1,4 +1,4 @@
-.footerLine {
+.footer_Line {
   width: 100%;
   background: #272C3B;
   height: 455px;
@@ -16,66 +16,66 @@
   background: #272C3B;
 }
 
-.footerLinks {
+.footer_Links {
   display: flex;
   margin-top: 47px;
 
 }
 
-.footerLinksColumn {
+.footer_Links_Column {
   display: flex;
   flex-direction: column;
 }
 
-.footerLinksColumn div {
+.footer_Links_Column div {
   font-size: 14px;
 }
 
-.footerLinksColumn a {
+.footer_Links_Column a {
   font-size: 12px;
   font-weight: 300;
   margin-top: 14px;
 }
 
-#footerLinksService {
+#footer_Links_Service {
   margin-right: 82px;
 }
 
-#footerLinksMedPortal {
+#footer_Links_Med_Portal {
   margin-right: 104px;
 }
 
-#footerLinksInfo {
+#footer_Links_Info {
   margin-right: 30px;
 
 }
 
-#footerLinksInfoSocial {
+#footer_Links_Info_Social {
   margin-top: 26px;
   letter-spacing: 0.4px;
 }
 
-#footerLinksContacts {
+#footer_Links_Contacts {
   color: #007CFF;
 }
 
-#footerLinksAddress {
+#footer_Links_Address {
   line-height: 19px;
 
 }
 
-.footerLinksInfoSocialIcon {
+.footer_Links_Info_Social_Icon {
   display: flex;
   margin-top: 16px;
 
 }
 
-.footerLinksInfoSocialIcon img {
+.footer_Links_Info_Social_Icon img {
   height: 20px;
 
 }
 
-.footerLinksInfoSocialIconCircle {
+.footer_Links_Info_Social_Icon_Circle {
   width: 31px;
   height: 31px;
   border-radius: 50%;
@@ -86,46 +86,46 @@
   align-items: center;
 }
 
-.footerLinksInfoSocialIconCircle:hover {
+.footer_Links_Info_Social_Icon_Circle:hover {
   background-color: #0062FF;
 }
 
-#footerLinksInfoSocialIconCircleFb {
+#footer_Links_Info_Social_Icon_Circle_Fb {
 
 }
 
-#footerLinksInfoSocialIconCircleVk {
+#footer_Links_Info_Social_Icon_Circle_Vk {
   width: 17px;
 }
 
-#footerLinksInfoSocialIconCircleOdn {
+#footer_Links_Info_Social_Icon_Circle_Odn {
   width: 10px;
 }
 
-#footerLinksInfoSocialIconCircleInst {
+#footer_Links_Info_Social_Icon_Circle_Inst {
   width: 17px;
 }
 
-#footerLinksInfoSocialIconCircleUT {
+#footer_Links_Info_Social_Icon_Circle_UT {
   width: 19px;
 }
 
-#footerLinksInfoSocialIconCircleTg {
+#footer_Links_Info_Social_Icon_Circle_Tg {
   width: 18px;
   margin-right: 5px;
 }
 
-#footerLinksInfoSocialIconCircleY {
+#footer_Links_Info_Social_Icon_Circle_Y {
 
 }
 
-.footerAttention {
+.footer_Attention {
   display: flex;
   margin-top: 39px;
   margin-left: -1px;
 }
 
-.footerAttentionIcon {
+.footer_Attention_Icon {
   width: 95px;
   height: 92px;
   display: flex;
@@ -135,12 +135,12 @@
   border-width: 1px;
 }
 
-.footerAttentionIcon img{
+.footer_Attention_Icon img{
   width: 53px;
   margin-right: 2px;
 }
 
-.footerAttentionInfo {
+.footer_Attention_Info {
   display: flex;
   font-size: 12px;
   font-weight: 300;
@@ -151,40 +151,40 @@
   margin-left: -1px;
 }
 
-.footerAttentionInfoOne {
+.footer_Attention_Info_One {
   margin-left: 72px;
   margin-top: 21px;
   line-height: 17px;
 }
 
-.footerAttentionInfoTwo {
+.footer_Attention_Info_Two {
   margin-left: 48px;
   margin-top: 21px;
   line-height: 17px;
 
 }
 
-.footerAttentionInfoThree {
+.footer_Attention_Info_Three {
   margin-left: 68px;
   margin-top: 21px;
   line-height: 17px;
 
 }
 
-.footerNotice {
+.footer_Notice {
   display: flex;
   margin-bottom: 48px;
   margin-top: 24px;
   color: #979797;
 }
 
-.footerNoticeYear {
+.footer_Notice_Year {
   font-size: 12px;
   font-weight: 300;
   margin-right: 169px;
 }
 
-.footerNoticeRights {
+.footer_Notice_Rights {
   font-size: 12px;
   font-weight: 300;
 }

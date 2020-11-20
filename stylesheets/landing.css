@@ -1,4 +1,4 @@
-.routeSection {
+.route_Section {
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -22,27 +22,27 @@
   margin-top: 2px;
 }
 
-.routeBefore {
+.route_Before {
   font-size: 12px;
   font-weight: 300;
   color: #696974;
 }
 
-.routeAfter {
+.route_After {
   font-size: 12px;
   font-weight: 400;
   color: #272C3B;
   margin-left: 10px;
 }
 
-.routeSectionIcon {
+.route_Section_Icon {
   width: 21px;
   margin-right: 13px;
 }
 
 
 
-.topicSection {
+.topic_Section {
   display: flex;
   align-items: center;
   font-family: 'Guardy';
@@ -54,7 +54,7 @@
   border-radius: 4px;
 }
 
-.topicSection div {
+.topic_Section div {
   font-size: 24px;
   margin-left: 30px;
   color: #555A6A;
@@ -74,7 +74,7 @@
   /* opacity: 0.5; */
 }
 
-.ArticlesBlock {
+.Articles_Block {
   background-color: #FFFFFF;
   width: 162px;
   height: 159px;
@@ -90,7 +90,7 @@
 
 }
 
-.ArticlesBlock:hover {
+.Articles_Block:hover {
   background-color: #FFFFFF;
   width: 162px;
   height: 159px;
@@ -112,7 +112,7 @@
 }
 
 
-.ArticlesBlockQuantity {
+.Articles_Block_Quantity {
   position: absolute;
   margin-top: 19px;
   margin-left: 16px;
@@ -121,7 +121,7 @@
   opacity: 0.5;
 }
 
-.ArticlesBlockInfo {
+.Articles_Block_Info {
   position: absolute;
   bottom: 18px;
   margin-left: 16px;
@@ -130,16 +130,16 @@
 
 }
 
-.ArticlesBlockInfoTopic {
+.Articles_Block_Info_Topic {
   letter-spacing: -0.1px;
 }
 
-.ArticlesBlockInfoTopicViews {
+.Articles_Block_Info_Topic_Views {
   display: flex;
   margin-top: 10px;
 }
 
-.ArticlesBlockInfoTopicViewsNumberView {
+.Articles_Block_Info_Topic_Views_Number_View {
   font-size: 9px;
   margin-top: 5px;
   margin-left: 3px;
@@ -164,14 +164,14 @@
 
 }
 
-.headingTopic {
+.heading_Topic {
   margin-left: 23px;
   font-size: 15px;
   margin-top: 25px;
   letter-spacing: -0.4px;
 }
 
-.headingDescription {
+.heading_Description {
   font-size: 13px;
   width: 380px;
   margin-left: 23px;
@@ -183,7 +183,7 @@
 
 }
 
-.headingTwo {
+.heading_Two {
   margin: auto;
   width: 878px;
   height: 150px;
@@ -196,14 +196,14 @@
 
 }
 
-.headingTwo img {
+.heading_Two img {
   height: 28px;
   margin-top: 62px;
   margin-left: 367px;
 }
 
 
-.headingTwoTopic {
+.heading_Two_Topic {
   margin-left: 29px;
   margin-top: 36px;
   width: 420px;
@@ -219,20 +219,20 @@
   /* opacity: 0.3; */
 }
 
-.diseasesTopic {
+.diseases_Topic {
   font-weight: 700;
   font-size: 25px;
   letter-spacing: -0.6px;
 }
 
-.diseasesGallery {
+.diseases_Gallery {
   display: flex;
   justify-content: space-between;
   margin-top: 22px;
   align-items: center;
 }
 
-.diseasesGalleryCards {
+.diseases_Gallery_Cards {
   display: flex;
   justify-content: space-between;
   width: 729px;
@@ -240,7 +240,7 @@
 
 }
 
-.diseasesCard {
+.diseases_Card {
   width: 135px;
   height: 172px;
   background-color: #FFFFFF;
@@ -251,7 +251,7 @@
   /* justify-content: center; */
 }
 
-.diseasesCard:hover {
+.diseases_Card:hover {
   width: 135px;
   height: 167px;
   background-color: #FFFFFF;
@@ -266,20 +266,20 @@
 }
 
 
-.diseasesCard img {
+.diseases_Card img {
   height: 60px;
   margin-left: 5px;
   margin-top: 29px;
 }
 
-.diseasesCardTopic {
+.diseases_Card_Topic {
   text-align: center;
   font-size: 12px;
   margin-top: 21px;
 }
 
 
-.diseasesGalleryArrow{
+.diseases_Gallery_Arrow{
   height: 30px;
   margin-top: -14px;
 

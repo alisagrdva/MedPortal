@@ -1,24 +1,24 @@
 
-.popularNews {
+.popular_News {
   margin: auto;
   width: 878px;
   margin-top: 25px;
 }
 
-.newsTopic {
+.news_Topic {
   font-weight: 700;
   font-size: 25px;
   letter-spacing: -0.6px;
 }
 
-.newsFeed {
+.news_Feed {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 14px;
 }
 
-.newsFeedCard {
+.news_Feed_Card {
   background-color: #FFFFFF;
   /* opacity: 0.3; */
   width: 277px;
@@ -27,11 +27,11 @@
 
 }
 
-.newsFeedCard img {
+.news_Feed_Card img {
   height: 190px;
 }
 
-.newsFeedCardTopic {
+.news_Feed_Card_Topic {
   margin-left: 15px;
   font-size: 15px;
   margin-top: 10px;
@@ -40,7 +40,7 @@
   letter-spacing: -0.2px;
 }
 
-.newsFeedCardDescription {
+.news_Feed_Card_Description {
   margin-left: 15px;
   font-size: 12px;
   margin-top: 9px;
@@ -50,7 +50,7 @@
   line-height: 17px;
 }
 
-.newsButtonSection {
+.news_Button_Section {
   margin: auto;
   display: flex;
   justify-content: center;
@@ -60,7 +60,7 @@
 }
 
 
-.newsButton {
+.news_Button {
   background-color: #007CFF;
   width: 189px;
   height: 33px;
@@ -76,7 +76,7 @@
 
 }
 
-.newsButton img {
+.news_Button img {
   height: 11px;
   margin-left: 16px;
 }
@@ -91,6 +91,6 @@
   margin-top: 31px;
 }
 
-#newsFeedBottom {
+#news_Feed_Bottom {
   margin-top: 20px;
 }
